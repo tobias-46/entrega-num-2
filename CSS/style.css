@@ -49,6 +49,23 @@ header ul{
     margin-top: 2px;
 } 
 
+.titulo{
+    display: block;
+    margin-left: 70%;
+    top: 30%;
+
+}
+
+.shop{
+    margin-left: 70px;
+}
+
+h2{
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+}
+
 h1{
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 30px;
@@ -78,7 +95,7 @@ header ul li a:hover{
     padding: 10px;
 }
 
-p:hover{
+.colorp:hover{
     color: #C98F6A;
 }
 
@@ -127,4 +144,43 @@ p:hover{
 
 .ip16larg{
     margin-left: 50px;
+}
+
+.grid-item-3 P{
+    font-size: 12px;
+    margin-top: 14px;
+    margin-right: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px;
+}
+
+.container{
+    display: flex;
+
+}
+.container a{
+    text-decoration: none;
+}
+
+iphone-13 a img{
+    margin-top: 250px;
+}
+
+.ip13p{
+    color: #000000;
+    margin-left : 170px;
+}
+
+.iphone-14{
+    display: flex;
+}
+
+.ip14p{
+    margin-left:170px ;
+    color: #000000;
+}
+
+.ip15p{
+    margin-left:170px ;
+    color: #000000;
 }
