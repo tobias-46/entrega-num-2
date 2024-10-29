@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -223,4 +224,70 @@ footer{
     display: flex;
     justify-content: space-around;
     margin-top: 120px;
+}
+
+@media (max-width:800px){
+    body{
+        background-color: #000000
+    }
+
+    header ul li a{
+        display: none;
+    }
+
+    .grid-container{
+        display: block;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .grid-item-1 h1{
+        font-size: 15px;
+        padding: 3px;
+        
+    }
+
+
+    .grid-item-3{
+        display: none;
+    }
+    
+    .container{
+        flex-direction: column;
+    }
+
+    .iphone-13 img{
+        margin-top: 30px;
+        width: 
+    }
+
+    .ip16larg{
+        width: 90%;
+        margin-left: 10px;
+    }
+
+    .menu-hamb{
+        margin-right: 7%;
+    }
+
+    .iphone-13 p{
+        color: aliceblue;
+        
+    }
+    .iphone-14 p{
+        color: aliceblue;
+    }
+
+    .iphone-15 p{
+        color: aliceblue;
+    }
+
+    .iphone-15 img{
+        width: 90%;
+    }
+}
+
+
+@media (min-width:800px){
+
 }
